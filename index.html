@@ -1,79 +1,78 @@
-<!-- Thanks for taking a look! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relax and Enjoy Music</title>
+    <style>
+        body {
+            background-image: url('c-d-x-PDX_a_82obo-unsplash.jpg');
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
 
-<link href='style.css' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet' type='text/css'>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="java.js"></script>
+        h1 {
+            font-size: 3em;
+            color: #333;
+        }
 
-<!-- BACK TO TOP ARROW -->
-<a class="smoothScroll" href="#welcome"><img id="btt" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Aiga_uparrow_inv.png"></a>
+        p {
+            font-size: 1.5em;
+            color: #666;
+        }
 
-<!-- NAV -->
-<div id="myNav" class="overlay">
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
 
-  <!-- Button to close the overlay navigation -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
 
-  <!-- Overlay content -->
-  <div class="overlay-content">
-    <a class="smoothScroll" href="#welcome" onclick="closeNav()">Home</a>
-    <a class="smoothScroll" href="#about" onclick="closeNav()">About</a>
-    <a class="smoothScroll" href="#portfolio" onclick="closeNav()">Portfolio</a>
-  </div>
+        .login-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 8px 16px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #6c757d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
 
-</div>
-
-<!-- Use any element to open/show the overlay navigation menu -->
-<span id="openmenu" onclick="openNav()"><b>Menu</b></span>
-
-<center>
-  <!-- WELCOME -->
-  <div id="welcome">
-    <h1>Akshya Thapa</h1>
-    <h3><b>Web Developer</b></h3>
-    <a class="smoothScroll" href="#about"><img id="press" src="https://www.clker.com/cliparts/9/v/N/A/A/6/upside-down-arrow.svg"></a>
-  </div>
-</center>
-
-<!-- ABOUT -->
-<div id="about">
-  <h1>About Me</h1>
-  <center>
-    <div id="self">
-      <img class="img-responsive" src="https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/277536683_149193664254760_3896352174578639412_n.jpg?stp=dst-jpg_s552x414&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LociBcBVX9kQ7kNvgGuk9Tb&_nc_ht=scontent.faip1-1.fna&oh=00_AfB8TgFbkGScxqJWqIeLzyjmGPvWxsniTv_EfF125hc-5A&oe=6632A9B0">
-    </div>
-  </center>
-  <br>
-  <p>Hi! I’m Akshya Thapa, and web development is my passion.<br><br> I love to build websites that I love, and it give me inner peace.<br><br> When I’m not programming, you can find me drawing, or drinking a nice cup
-    of tea.
-    <br><br>If you'd like, scroll down to see some examples of my work!</p>
-  <br><br>
-  <span id="email" onclick="window.location.href = 'mailto:akshyathapa23@gmail.com';">akshyathapa23@gmail.com</span>
-  <span id="portScroll">
-    <a class="smoothScroll" href="#portfolio"><img src="http://www.meegankent.com/images/portfolio-icon2.png"> View My Portfolio</a></span>
-</div>
-
-<!-- PORTFOLIO -->
-<div id="portfolio">
-  <h1>Portfolio</h1>
-  <h3>Here you'll find some projects I've worked on! Click on a project to see a demo of it.</h3>
-  <br>
-  <center>
-    <div id="port" class="container">
-      <table>
-          <!-- PORTFOLIO -->
-          <tr>
-            <a target="_blank" href=""><img class="img-responsive thumbnail" src="https://images.unsplash.com/photo-1423589989400-cc0270157ed0?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300"></a>
-          </tr>
-          <!-- UPWORK -->
-          <tr>
-            <a target="_blank" href="main.html"><img class="img-responsive thumbnail" src="Screenshot 2024-05-09 155525.png"></a>
-          </tr>
-          <!-- TRIBUTE PAGE -->
-          <tr>
-            <a target="_blank" href=""><img class="img-responsive thumbnail" src="https://farm8.staticflickr.com/7387/26213110134_8afa53cf2e_b.jpg"></a>
-          </tr>
-      </table>
-    </div>
-  </center>
-</div>
+        .login-button:hover {
+            background-color: #495057;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Best Place to Relax and Enjoy Music</h1>
+    <p>Indulge in the soothing melodies and find your moment of peace.</p>
+    <a href="home.html" class="button" >Get Started</a>
+    <a href="mypage.html" class="login-button">Login</a>
+</body>
+</html>
