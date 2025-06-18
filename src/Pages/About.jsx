@@ -4,6 +4,9 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 // Memoized Components
+
+
+// jkbrisbdsiebfibwerigbribvhdfbigre
 const Header = memo(() => (
   <div className="text-center lg:mb-8 mb-2 px-[5%]">
     <div className="inline-block relative group">
