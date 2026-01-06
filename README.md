@@ -1,113 +1,70 @@
-# Portfolio V5  
-Hello everyone!  
-Let me introduce myself, Akshya Thapa. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+# Getting Started with Create React App
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
+## Available Scripts
 
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
+In the project directory, you can run:
 
----
+### `npm start`
 
-# Tutorial: Running the Project  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Here’s a simple guide to run this project.  
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Prerequisites  
+### `npm test`
 
-Ensure that you have already installed:  
-- **Node.js**  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## Steps to Run the Project  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. **Download this project:**  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
-   ```  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. **Install all dependencies:**  
+### `npm run eject`
 
-   ```bash  
-   npm install  
-   ```  
-   Or use:  
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   ```bash  
-   npm install --legacy-peer-deps  
-   ```  
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3. **Run the project:**  
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-   ```bash  
-   npm run dev  
-   ```  
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-4. **Open in browser:**  
+## Learn More
 
-   Access the application through the link displayed in your terminal.  
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Creating a Production Build  
+### Code Splitting
 
-To create a production-ready build:  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-1. Run the build command:  
+### Analyzing the Bundle Size
 
-   ```bash  
-   npm run build  
-   ```  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Notes  
+### Advanced Configuration
 
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
----
+### Deployment
 
-## Firebase Configuration  
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-To configure Firebase for this project, follow these steps:  
+### `npm run build` fails to minify
 
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
-
-2. **Enable Firestore Database:**  
-   - Create a database.  
-
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
-
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
-
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
-
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
-
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
