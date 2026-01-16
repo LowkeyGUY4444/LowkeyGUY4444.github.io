@@ -72,7 +72,7 @@ const Portfolio = () => {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 lg:min-h-[700px] flex items-center px-6 overflow-hidden">
-        {/* Subtle Grid Overlay */}
+
         <div className="absolute inset-0 opacity-20 pointer-events-none"
           style={{ backgroundImage: 'radial-gradient(#1a1a1a 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
 
