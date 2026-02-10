@@ -92,12 +92,10 @@ const Portfolio = () => {
             <p className="text-[#d4d4d4] text-lg leading-relaxed max-w-[500px] mb-8">
               Turning complex problems into elegant, high-performance software solutions.
             </p>
-
             <div className="flex flex-wrap gap-4 mb-8">
               <a href="#projects"><button className="bg-cyan-500 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-cyan-600 transition-all shadow-[0_0_20px_rgba(6,182,212,0.3)]">View Projects</button></a>
               <a href="https://drive.google.com/file/d/1oMY81QUw-IHVfoMR9vwdYThBTEOP-ufQ/view?usp=drive_link"><button className="border-2 border-cyan-500 text-cyan-400 font-semibold px-8 py-3.5 rounded-xl hover:bg-cyan-500/10 transition-all">Download CV</button></a>
             </div>
-
             <div className="flex gap-4 text-[#737373]">
               <a href="https://github.com/LowkeyGUY4444"><Github className="hover:text-white cursor-pointer transition-colors" /></a>
               <a href="https://www.linkedin.com/in/akshya-thapa"><Linkedin className="hover:text-white cursor-pointer transition-colors" /></a>
