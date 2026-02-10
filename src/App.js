@@ -40,11 +40,20 @@ const Portfolio = () => {
     {
       id: 2,
       title: "E-Commerce Platform",
-      description: "A fully functional online store with cart and payment integration.",
+      description: "A fully functional online store with cart and COD.",
       tags: ["Node.js", "React", "Tailwind CSS", "Express.js", "MongoDB"],
       image: "/hamrobazar.png",
       codeLink: "https://github.com/LowkeyGUY4444/my-app",
       demoLink: "https://hamrobazzer.vercel.app/"
+    },
+    {
+      id: 3,
+      title: "GhostSize",
+      description: "A website that help to resize the picture.",
+      tags: ["Node.js", "React", "tailwind CSS"],
+      image: "/image.png",
+      codeLink: "https://github.com/LowkeyGUY4444/snapshrink",
+      demoLink: "https://ghostsize.netlify.app/"
     },
   ];
 
